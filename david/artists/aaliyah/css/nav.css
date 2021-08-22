@@ -1,0 +1,11 @@
+body{background-color: Black;color: orange;text-align:center;margin:0 0 0 0;}
+table{width:100%;color:yellow;}
+
+tr{	color: yellow; width:11.1%;text-align:center;}
+
+td{text-align:center;font-size:12px;}
+
+A.link {font-family: "times new roman";color:yellow;}
+
+
+A:hover {color: #FFA500; font-size:14px; font-family:"arial black";}

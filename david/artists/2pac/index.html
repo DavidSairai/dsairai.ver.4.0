@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>Sirius</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<comment>
+<script language="JavaScript1.2">
+<!--
+// Seismic window by Paul Anderson, copyright 1999 CNET, Inc.
+var quakeID=0;
+var deltaX=0;
+var deltaY=0;
+
+function tremor(dir) { // -10 to 10
+with(Math) return ceil(random()*10)*2*(floor(random()*2)-.5);
+}
+
+
+function winQuake() {
+clearTimeout(quakeID);
+for (i=0;i<=((Math.random()*35)+5);i++) {
+    xShift = tremor();
+    yShift = tremor();
+    window.moveBy(xShift,yShift);
+    deltaX -= xShift;
+    deltaY -= yShift;
+    }
+winReset();
+quakeID=setTimeout("winQuake()",Math.ceil(Math.random()*3500)+250);
+}
+
+
+function winReset() {
+window.moveBy(deltaX,deltaY);
+deltaX=0; deltaY=0;
+}
+
+
+window.onload=winQuake;
+window.onunload=winReset;
+//-->
+</script></comment>
+</head>
+
+<frameset rows="10,90" cols="8,92" frameborder="NO" border="0" framespacing="0"> 
+  <frame name="corner" scrolling="NO" noresize src="logo.html" >
+  <frame name="top" scrolling="NO" noresize src="maintop.html" >
+  <frame name="left" scrolling="NO" noresize src="nav.html">
+  <frame name="main" src="main.html">
+</frameset>
+<noframes><body bgcolor="#FFFFFF" text="#000000">
+
+</body></noframes>
+</html>

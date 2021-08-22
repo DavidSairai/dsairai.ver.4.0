@@ -1,0 +1,44 @@
+h6{font-size:18px;  text-align:center; font-family:"times new roman"; font-weight:normal;color:yellow;}
+
+h7{
+	font-size:26px;
+	text-align:center;
+	font-family:"times new roman";
+	font-weight: bold;
+	color:yellow;
+	background-color : Fuchsia;
+}
+
+.sign{font-size:11px; color:blue; text-align:center; font-family:"times new roman"; font-weight:normal;}
+
+body{
+	background-color : #CC99FF;
+	text-align:center;
+	color:black;
+	scrollbar-face-color: #7FFFD4;
+	scrollbar-shadow-color: #829cb3;
+	scrollbar-highlight-color: #829cb3;
+	scrollbar-3d-light-color: white;
+	scrollbar-dark-shadow-color: blue;
+	scrollbar-base-color: #7FFFD4;
+	scrollbar-arrow-color: black;
+	font-size:14px;
+	font-family:"Times New Roman",Times,serif;
+}
+
+table{
+	border: 1 solid 1;
+	border-color: yellow Yellow;
+	background-color : Navy;
+}
+
+td{
+	border-color : Yellow; background-color: #6495ED; text-align:center;
+}
+A:hover {color:#a0f0ff;}
+
+a:link{	color:blue}
+
+a:active{color:white;}
+
+a.visited{color:blue}

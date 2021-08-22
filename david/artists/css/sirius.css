@@ -1,0 +1,13 @@
+body{
+	background-color: skyblue;text-align:center
+}
+
+.sign{
+	text-align: center;font-size:10px;
+}
+
+	BODY
+{scrollbar-face-color: ; scrollbar-shadow-color: red;
+scrollbar-highlight-color: purple; scrollbar-3d-light-color: blue;
+scrollbar-dark-shadow-color: blue; scrollbar-base-color: skyblue;
+scrollbar-arrow-color: yellow;}

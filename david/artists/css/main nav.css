@@ -1,0 +1,16 @@
+table{	border: 1;	text-align:center;	padding : 2 2 2 2;font-size:12px}
+
+body{background-color:#87cffe;	color:#4682b4;	background : #87cffe;}
+
+a.hover{
+	color:red
+}
+
+v.link{
+	color:green
+}
+
+a.link{
+	color:blue
+}
+

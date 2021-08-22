@@ -1,0 +1,15 @@
+body{
+	background-color: #CC9900;
+	text-align:center;
+	margin:0 0 0 0;
+}
+	
+table{padding: 1 0 0 0;  width:60%;font-size: 12px; }
+
+tr{font-size: 12px;}
+
+td{text-align:center; width: 12%;}
+
+A.link {font-size: 12px;text-decoration: color:white}
+
+A:Hover {color: yellow;}

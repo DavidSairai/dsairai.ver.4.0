@@ -1,0 +1,28 @@
+A.link {font-size: 12px;text-decoration: color:black}
+
+A:Hover {
+	color: #FAEBD7;
+}
+
+.sign{
+	font-size:11px;
+	color: #F08080;
+	text-align:center;
+	font-family:"times new roman";
+	font-weight:normal;
+}
+
+body{
+	background-color : Silver;
+	text-align:center;
+	color: Fuchsia;
+	scrollbar-face-color: silver;
+	scrollbar-shadow-color: silver;
+	scrollbar-highlight-color: #829cb3;
+	scrollbar-3d-light-color: white;
+	scrollbar-dark-shadow-color: blue;
+	scrollbar-base-color: #7FFFD4;
+	scrollbar-arrow-color: black;
+	font-size:14px;
+	font-family:"Times New Roman",Times,serif;
+}

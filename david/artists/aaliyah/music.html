@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>Life Main Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="Javascript1.0">
+window.status="...Aaliyah Music..."
+</script>
+<style type="text/css">
+body
+{scrollbar-face-color: black; scrollbar-shadow-color: red;
+scrollbar-highlight-color: lavender; scrollbar-3dlight-color: white;
+scrolebar-darkshadow-color: blue;srollbar=track-color: green;
+scrollbar-arrow-color: white;}
+</style>
+</head>
+
+<body bgcolor="skyblue" vlink="white" link="yellow" alink="yellow" text="#000000">
+<LAYER NAME="a0" LEFT=10 TOP=10 VISIBILITY=SHOW BGCOLOR="#FFFF00" CLIP="0,0,3,3"></LAYER>
+<LAYER NAME="a1" LEFT=10 TOP=10 VISIBILITY=SHOW BGCOLOR="#FFFF00" CLIP="0,0,3,3"></LAYER>
+<LAYER NAME="a2" LEFT=10 TOP=10 VISIBILITY=SHOW BGCOLOR="#FFFF00" CLIP="0,0,3,3"></LAYER>
+<LAYER NAME="a3" LEFT=10 TOP=10 VISIBILITY=SHOW BGCOLOR="#FFFF00" CLIP="0,0,3,3"></LAYER>
+<LAYER NAME="a4" LEFT=10 TOP=10 VISIBILITY=SHOW BGCOLOR="#FFFF00" CLIP="0,0,3,3"></LAYER>
+<LAYER NAME="a5" LEFT=10 TOP=10 VISIBILITY=SHOW BGCOLOR="#FFFF00" CLIP="0,0,3,3"></LAYER>
+<LAYER NAME="a6" LEFT=10 TOP=10 VISIBILITY=SHOW BGCOLOR="#FFFF00" CLIP="0,0,3,3"></LAYER>
+
+<script language="JavaScript">
+if (document.all){
+document.write('<div id="starsDiv" style="position:absolute;top:0px;left:0px">')
+for (xy=0;xy<7;xy++)
+document.write('<div style="position:relative;width:3px;height:3px;background:#FFFF00;font-size:2px;visibility:visible"></div>')
+document.write('</div>')
+}
+
+if (document.layers)
+{window.captureEvents(Event.MOUSEMOVE);}
+var yBase = 200;
+var xBase = 200;
+var yAmpl = 10;
+var yMax = 40;
+var step = .2;
+var ystep = .5;
+var currStep = 0;
+var tAmpl=1;
+var Xpos = 1;
+var Ypos = 1;
+var i = 0;
+var j = 0;
+
+if (document.all)
+{
+  function MoveHandler(){
+  Xpos = document.body.scrollLeft+event.x;
+  Ypos = document.body.scrollTop+event.y;
+  }
+  document.onmousemove = MoveHandler; 
+}
+
+else if (document.layers)
+{
+  function xMoveHandler(evnt){
+  Xpos = evnt.pageX;
+  Ypos = evnt.pageY;
+  }
+  window.onMouseMove = xMoveHandler;
+}
+
+
+
+function animateLogo() {
+if (document.all)
+{
+ yBase = window.document.body.offsetHeight/4;
+ xBase = window.document.body.offsetWidth/4;
+}
+else if (document.layers)
+{
+ yBase = window.innerHeight/4 ;
+ xBase = window.innerWidth/4;
+}
+
+if (document.all)
+{
+var totaldivs=document.all.starsDiv.all.length
+ for ( i = 0 ; i < totaldivs ; i++ )
+ {
+var tempdiv=document.all.starsDiv.all[i].style
+  tempdiv.top = Ypos + Math.cos((20*Math.sin(currStep/20))+i*70)*yBase*(Math.sin(10+currStep/10)+0.2)*Math.cos((currStep + i*25)/10);
+  tempdiv.left = Xpos + Math.sin((20*Math.sin(currStep/20))+i*70)*xBase*(Math.sin(10+currStep/10)+0.2)*Math.cos((currStep + i*25)/10);
+ }
+}
+
+else if (document.layers)
+{
+ for ( j = 0 ; j < 7 ; j++ ) 
+ {
+var templayer="a"+j
+  document.layers[templayer].top = Ypos + Math.cos((20*Math.sin(currStep/20))+j*70)*yBase*(Math.sin(10+currStep/10)+0.2)*Math.cos((currStep + j*25)/10);
+  document.layers[templayer].left =Xpos + Math.sin((20*Math.sin(currStep/20))+j*70)*xBase*(Math.sin(10+currStep/10)+0.2)*Math.cos((currStep + j*25)/10);
+ }
+}
+currStep += step;
+setTimeout("animateLogo()", 15);
+}
+animateLogo();
+// -->
+</script>
+<center>
+<br>
+<table border="1" width="50%" bgcolor="skyblue"><tr>
+<td align="center" ><a href="beat.html">Music</a></td>
+<td align="center"><a href="movies.html">Movies</a></td>
+<td align="center"><a href="pics.html">Pictures</a>
+</td></tr></table>
+<hr>
+<table bgcolor="#808080" width="80%"><tr><td>
+Aaliyah was traveling from Abaco Island in the Bahamas to Miami in a private plane, which crashed soon after takeoff. Eight other passengers, including her bodyguard, makeup artist and a Virgin Records rep were also killed.</td></tr>
+<tr><td>
+Aaliyah is survived by her mother, Diane, father, Michael and a brother, Rashad. Aaliyah Dana Haughton was born in Brooklyn, New York and was raised in Detroit. She graduated from the Detroit Performing Arts High School in 1997 with a 4.0 GPA. From an early age, Aaliyah found satisfaction in music. When she didn't win the vocal competition on Star search as a pre-teen, she did not let that deter her from continuing to sing. At age 11, she landed a five-night stint performing with Gladys's knight troupe in Las Vegas. </td></tr>
+<tr><td>
+Her professional musical career began in 1994 at the age of 14 when Aaliyah released her debut album, "Age Ain't Nothing But A Number." The first single "Back And Forth" went straight to the top of the charts and the follow up single, a remake of the Isley BrothersÕ "At your Best (you are loved)," pushed the disc to platinum.</td></tr>
+<tr><td>
+In 1996 Aaliyah released her second record, "One in a Million," featuring the singles, "If Your Girl Only Knew" and the popular title track. It sold more than 2 million copies.</td><tr>
+<tr><td>
+In 1998 Aaliyah struck gold again with the hit single "Are You That Somebody," from the DR. DOLITTLE soundtrack. Later that year, Aaliyah performed the song "Journey To The Past" from the motion picture, ANASTASIA, at the Academy Awards.</td></tr>
+<tr><td>
+Between albums, the twice-Grammy-nominated singer was enjoying a successful film career as well. Aaliyah made her acting debut in 2000Õs surprise-hit, ROMEO MUST DIE. Her single, "Try Again," from the ROMEO MUST DIE soundtrack was a smash, and earned her two MTV Video Music Awards for both "Best Female Video" and "Best Video from a Film."</td></tr>
+<tr><td>
+The talented 22-year-old's next offering is, QUEEN OF THE DAMNED, due early next year. Before her passing, the busy actress had also begun production on the two highly anticipated sequels to the hit film, THE MATRIX, in which she was set to play a character named Zee, opposite Keanu Reeves and Laurence Fishburne. </td><tr>
+<tr><td>
+Aaliyah's self-titled third album was released on July 17th 2001 and debuted at number 2 on the charts and the album's first single, "We Need A Resolution," was getting plenty of airplay. The singer's fateful trip to the Bahamas was to shoot the video for her second single, "Rock The Boat." </td><tr>
+<tr><td>
+When considering Aaliyah's track record, it's befitting that her name meant the "highest, most exalted one" in Swahili. Her success as both a recording artist and actress actually made the name a self-fulfilling prophecy. Aaliyah was truly a remarkable artist and was indeed "One In A Million". She will be sorely missed. </td></tr></table>
+<hr><font size="1">
+<script>
+var example
+example=document.lastModified
+document.write("Last modified: "+example)
+</script></font></center>
+</body>
+</html> 

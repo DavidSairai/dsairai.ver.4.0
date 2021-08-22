@@ -1,0 +1,24 @@
+body{
+	background-color: #8A2BE2;
+	color: Silver;
+	text-align:center;
+	margin:0 0 0 0;
+}
+table{
+	border: 2px; padding: 1 0 0 0;  width:60%;
+}
+tr{
+	color: Aqua;
+}
+td{
+text-align:center; width: 12%;
+}
+
+a:link{	color: Lime;font-size:14px;
+}
+
+v:link{	color: lime;
+}
+
+a:hover{color:yellow;
+	font-family: "Comic Sans MS";font-size:16px;}

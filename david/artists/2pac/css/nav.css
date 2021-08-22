@@ -1,0 +1,12 @@
+body{
+	background-color: white; color: black;text-align:center; margin:0 0 0 0;
+}
+table{
+	border: 2px; padding: 1 0 0 0;  width:60%;
+}
+td{
+text-align:center; width: 12%;
+}
+.text{
+	font-size:10px;text-align:left;r
+}
